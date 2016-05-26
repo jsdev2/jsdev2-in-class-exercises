@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    ul {
+      transition: max-height 1s ease;
+    }
+    li {
+      font-size: 30px;
+      cursor: pointer;
+      transition: max-height 1s ease, font-size 0.5s ease;
+    }
+    ul, li {
+      /* something randomly large */
+      max-height: 200px; 
+
+      overflow: hidden; 
+    }
+    ul.slide-up, li.slide-up {
+      max-height: 0;
+    }
+    .animal.big {
+      font-size: 50px;
+    }
+    .pink-me {
+      color: pink;
+    }
+    .truck {
+      transition: opacity 2s ease;
+    }
+    .truck.fade {
+      opacity: 0;
+    }
+  </style>  
+
+</head>
+<body>
+
+<ul>
+  <li class="animal">dog</li>
+  <li class="animal">cat</li>
+  <li class="animal">porpoise</li>
+</ul>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script type="text/javascript" src="jquery-events.js"></script>
+</body>
+</html>
