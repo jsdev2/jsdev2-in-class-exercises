@@ -1,0 +1,19 @@
+.complete-task {
+  font-weight: normal;
+  color: blue;
+  cursor: pointer;
+}
+
+.delete-task {
+  font-weight: normal;
+  color: red;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.bold-me {
+  font-weight: bold;
+}
